@@ -1,6 +1,6 @@
 {
   "name": "eeh-webapi-auth",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": [
     "src/eeh-webapi-auth.js"
   ],
@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": ">=1.2"
+    "angular": ">=1.2",
+    "angular-local-storage": "~0.1.5"
   }
 }
