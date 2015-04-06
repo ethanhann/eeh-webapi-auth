@@ -1,0 +1,28 @@
+{
+  "name": "eeh-webapi-auth",
+  "version": "0.0.0",
+  "main": [
+    "src/eeh-webapi-auth.js"
+  ],
+  "homepage": "https://github.com/ethanhann/eeh-webapi-auth",
+  "authors": [
+    "Ethan Hann <ethanhann@gmail.com>"
+  ],
+  "keywords": [
+    "AngularJS",
+    "ASP.NET",
+    "WebAPI",
+    "Authentication"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2"
+  }
+}
