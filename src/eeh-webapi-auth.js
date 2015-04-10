@@ -38,6 +38,10 @@
         return this.localStorageService.keys().indexOf(this._accessTokenKey) !== -1;
     };
 
+    WebApiAuthService.prototype.accessToken = function () {
+        return this.localStorageService.get(this._accessTokenKey);
+    };
+
     var WebApiAuthProvider = function(localStorageServiceProvider) {
         localStorageServiceProvider.setPrefix('eehWebApiAuth');
         this._accessTokenKey = 'access-token';
